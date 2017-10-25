@@ -28,7 +28,7 @@ Guardados los datos para ver el grafo</i></p>
 <p>donde "grafo_basico" se refiere a la carpeta donde hemos creado los ficheros y devolverá algo así:</p>
 <p><i>TensorBoard 0.1.8 at http://0.0.0.0:6006 (Press CTRL+C to quit)</i></p>
 </p>Sólo tendremos que abrir el navegador en la ruta indicada y se verá algo así:</p>
-<p><img src="https://github.com/Tensor4Dummies/2_tensorboard/blob/master/grafo_basico.jpg" alt="Grafo básico"></p>
+<p><img src="https://github.com/Tensor4Dummies/2_tensorboard/blob/master/grafo_basico.JPG" alt="Grafo básico"></p>
 
 <h2><a name="grafica"></a>Gráficas</h2>
 
