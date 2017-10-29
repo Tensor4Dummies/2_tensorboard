@@ -41,7 +41,7 @@ with tf.Session() as sesion:
     sesion.run(init)
 
     #Crear el escritor del log
-    writer = tf.summary.FileWriter('/grafica_basica', sesion.graph)
+    writer = tf.summary.FileWriter('/grafica_basica/diferencia', sesion.graph)
 
     #Ejecución operaciones
     for i in range(200):

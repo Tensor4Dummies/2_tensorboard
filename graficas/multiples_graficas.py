@@ -37,8 +37,8 @@ with tf.name_scope("Graficas"):
     summary_b = tf.summary.merge_all('B')
 
 #GENERAR LOS DATOS
-x_entrenamiento = [1, 2, 3, 4]
-y_entrenamiento = [0, -1, -2, -3]
+x_entrenamiento = [1.01, 1.99, 3.02, 3.98]
+y_entrenamiento = [0.02, -1.03, -1.99, -2.99]
 
 #INICIAR SESIÓN
 with tf.Session() as sesion:
