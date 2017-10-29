@@ -1,8 +1,7 @@
 <h1><a name="grafo"></a>Grafos</h1>
 <h2>Un grafo básico</h2>
 En el ejemplo <a href="https://github.com/Tensor4Dummies/2_tensorboard/blob/master/grafos/grafo_basico.py">grafo_basico.py</a> se realiza la operación
-<pre style='display:inline'><i>x * y +z</i>, siendo "x" una constante, "y" una variable y "z" un placeholder. Al visualizar el grafo más adelante veremos que no se representan
- igual, sobre todo destacar que todos los placeholder se indican en la esquina izquierda superior para inicializar.</p>
+<i>x * y +z</i>, siendo "x" una constante, "y" una variable y "z" un placeholder. Al visualizar el grafo más adelante veremos que no se representan igual, sobre todo destacar que todos los placeholder se indican en la esquina izquierda superior para inicializar.</p>
 <p>Lo único que hemos añadido en diferencia a un programa especial es:</br>
 <pre style='display:inline'><i>writer = tf.summary.FileWriter('/grafo_basico', sesion.graph)</br>writer.close()</i></pre>
 que se encarga de escribir un fichero en la ruta "/grafo_basico" con los datos, y luego se cierra con close().</p>
