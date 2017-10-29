@@ -27,7 +27,7 @@ Sólo tendremos que abrir el navegador en la ruta indicada y se verá algo así:
 
 <h2>Grafos con niveles</h2>
 <p>Otra cosa muy interesante que nos permiten los grafos de Tensorboard es agrupar para la visualización y trabajo.
-Como ejemplo tenemos <a href="https://github.com/Tensor4Dummies/2_tensorboard/blob/master/grafos/grafo_niveles.py">grafo_niveles.py</a> en el que queremos realizar la operaci�n <pre style='display:inline'><i>(Ax^2 + Bx + C)+(A + Bx + Cx^2)</i>, en la que va variando la x. Pero para simplificar lo convertimos en <pre style='display:inline'><i>y1+y2</i>, donde <pre style='display:inline'><i>y1=(Ax^2 + Bx + C)</i> e <pre style='display:inline'><i>y2=(A + Bx + Cx^2)</i>.</p>
+Como ejemplo tenemos <a href="https://github.com/Tensor4Dummies/2_tensorboard/blob/master/grafos/grafo_niveles.py">grafo_niveles.py</a> en el que queremos realizar la operación <i>(Ax^2 + Bx + C)+(A + Bx + Cx^2)</i>, en la que va variando la x. Pero para simplificar lo convertimos en <i>y1+y2</i>, donde <i>y1=(Ax^2 + Bx + C)</i> e <i>y2=(A + Bx + Cx^2)</i>.</p>
 <p>Ésto es conocido como name_scope y se realiza añadiendo: </br>
 <pre style='display:inline'><i>with tf.name_scope("Ecuacion_1"):</i></pre>
 previamente a las operaciones que queremos incluir dentro de ese nombre. Por lo tanto al abrir la visualización sería:</br>
