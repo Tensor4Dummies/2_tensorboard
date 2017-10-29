@@ -2,10 +2,10 @@
 
 <h2>Gráfica básica</h2>
 <p>Para general una gráfica que muestre un dato concreto, en este caso la diferencia en las distintas transiciones, se realiza añadiendo:</br>
-<li>with tf.name_scope("grafica"):</br>
-<pre style='display:inline'>& # 0 9 ;</pre>#Operaciones para la gráfica</br>
-<pre style='display:inline'>& # 0 9 ;</pre> tf.summary.scalar('diferencia_actual', perdida)</br>
-<pre style='display:inline'>& # 0 9 ;</pre> summary = tf.summary.merge_all()</br></li>
+<pre style='display:inline'><li>with tf.name_scope("grafica"):</br>
+#Operaciones para la gráfica</br>
+tf.summary.scalar('diferencia_actual', perdida)</br>
+summary = tf.summary.merge_all()</pre></li>
 en la parte de operaciones.</p>
 <p>Y después en la parte de ejecución de las operaciones:</br>
 <i>summary_calculada = sesion.run(summary,feed_dict={x: x_entrenamiento, y: y_entrenamiento}) </br>
